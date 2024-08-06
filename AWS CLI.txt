@@ -1,0 +1,13 @@
+Powershell 
+
+#aws --version
+
+#aws configure 
+	Access Key - 
+	Secret Key - 
+
+#aws s3 ls   --------> for check how many Buckets in your AWS Account
+
+#aws s3 ls <bucket name> -----------> for check object inside the bucket.
+
+#
