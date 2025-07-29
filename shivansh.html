@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1400x400') no-repeat center center/cover;
+      color: white;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .service {
+      background: #f4f4f4;
+      padding: 20px;
+      flex: 1;
+      min-width: 280px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Demo Website</h1>
+    <p>Explore basic HTML and CSS layout</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Your Amazing Banner Here
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      This is a simple demo website to showcase HTML and CSS basics. You can use this template to build your own static website or as a starting point for learning front-end web development.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Web Design</h3>
+        <p>We design responsive and visually appealing websites for individuals and businesses.</p>
+      </div>
+      <div class="service">
+        <h3>Development</h3>
+        <p>Custom web applications using HTML, CSS, JavaScript, and modern frameworks.</p>
+      </div>
+      <div class="service">
+        <h3>SEO</h3>
+        <p>Optimize your website to rank higher on search engines and increase visibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@example.com</p>
+    <p>Phone: +91-1234567890</p>
+    <p>Location: Mumbai, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Demo Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
